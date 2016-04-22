@@ -32,4 +32,15 @@ public enum BitHandler
         return count;
     }
 
+    public int setNthBit(int value, int position)
+    {
+        return value | (1 << position);
+    }
+
+    public long setNthBit(long value, int position)
+    {
+        return value | (1 << position);
+    }
+
+
 }
