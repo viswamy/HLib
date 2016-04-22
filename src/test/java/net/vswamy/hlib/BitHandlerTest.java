@@ -1,6 +1,6 @@
 package net.vswamy.hlib;
 
-import net.vswamy.hlib.BitHandler;
+import net.vswamy.hlib.HashBag;
 import org.junit.Assert;
 import org.junit.Test;
 
