@@ -1,3 +1,5 @@
+package net.vswamy.hlib;
+
 import net.vswamy.hlib.BitHandler;
 import org.junit.Assert;
 import org.junit.Test;
