@@ -41,6 +41,5 @@ public enum BitHandler
     {
         return value | (1 << position);
     }
-
-
+    
 }

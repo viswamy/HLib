@@ -44,6 +44,10 @@ public class BitHandlerTest
     @Test
     public void setBitForLong()
     {
-
+        Assert.assertEquals(bitHandler.setNthBit(2L,0),3);
+        Assert.assertEquals(bitHandler.setNthBit(1L,0),1);
+        Assert.assertEquals(bitHandler.setNthBit(8L,1),10);
+        Assert.assertEquals(bitHandler.setNthBit(4L,2),4);
+        Assert.assertEquals(bitHandler.setNthBit(1000000000000L,0),1000000000001L);
     }
 }
